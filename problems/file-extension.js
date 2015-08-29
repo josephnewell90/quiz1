@@ -8,5 +8,8 @@
  * extension
  */
 module.exports = function fileExtension(name) {
-
+  var splitString = name.split('.');
+  var extensionLocation = splitString.length - 1;
+  var fileExtension = splitString[extensionLocation];
+  return fileExtension;
 };

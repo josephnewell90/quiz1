@@ -7,6 +7,13 @@
  * @return {Boolean} True if even, false if odd
  */
 module.exports = function isEven(num) {
-
+  if (num % 2 == 0)
+  {
+    return 'Number is even!';
+  }
+  else {
+    {
+      return 'Number is odd!';
+    }
+  }
 };
-
