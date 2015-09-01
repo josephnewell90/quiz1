@@ -9,9 +9,9 @@
 module.exports = function isEven(num) {
   if (num % 2 == 0)
   {
-    return 'Number is even!';
+    return true;
   }
   else {
-      return 'Number is odd!';
+      return false;
   }
 };
