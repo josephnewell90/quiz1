@@ -12,8 +12,6 @@ module.exports = function isEven(num) {
     return 'Number is even!';
   }
   else {
-    {
       return 'Number is odd!';
-    }
   }
 };
